@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aurelle | Timeless Fine Jewellery</title>
+  <meta name="description" content="Discover Aurelle fine jewellery—exceptional diamonds, sculptural gold, and timeless craftsmanship.">
+  <meta property="og:title" content="Aurelle | Timeless Fine Jewellery">
+  <meta property="og:description" content="Exceptional diamonds and timeless craftsmanship, created for your story.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <header class="site-header">
+      <nav class="navbar" aria-label="Main navigation">
+        <button class="brand" data-scroll="home" aria-label="Aurelle home">AURELLE</button>
+        <div class="desktop-nav">
+          <button data-scroll="home">Home</button>
+          <button data-scroll="collection">Collection</button>
+          <button data-scroll="collection">New arrivals</button>
+          <button data-scroll="story">Our story</button>
+        </div>
+        <div class="nav-actions">
+          <button class="icon-button" data-overlay-open="search" aria-label="Search"><svg aria-hidden="true"><use href="#icon-search"></use></svg></button>
+          <button class="icon-button" data-overlay-open="cart" aria-label="Shopping bag"><svg aria-hidden="true"><use href="#icon-bag"></use></svg></button>
+          <button class="icon-button" data-overlay-open="menu" aria-label="Open menu"><svg aria-hidden="true"><use href="#icon-menu"></use></svg></button>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="story-scroll" aria-label="Aurelle collection story">
+      <div class="story-sticky">
+        <video id="hero-film" class="hero-film" src="assets/aurelle-scroll-film.webm" poster="assets/jewellery-hero.jpg" preload="auto" muted playsinline aria-label="A cinematic sequence of Aurelle jewellery"></video>
+        <div class="cinematic-shade"></div><div class="light-sweep" aria-hidden="true"></div>
+        <article class="chapter chapter-0" data-chapter="0"><p class="eyebrow">The Signature Collection</p><h1 class="cinematic-title">TIMELESS<br><em>ELEGANCE</em></h1><p class="chapter-copy">Jewellery crafted to become part of your story.</p><button class="outline-button" data-scroll="collection">Explore collection <svg aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg></button></article>
+        <article class="chapter chapter-1" data-chapter="1"><p class="eyebrow">An art of precision</p><h2 class="cinematic-title">CRAFTED<br><em>TO CAPTIVATE</em></h2><p class="chapter-copy">Every detail is designed with precision, passion and timeless craftsmanship.</p></article>
+        <article class="chapter chapter-2" data-chapter="2"><p class="eyebrow">Exceptional by nature</p><h2 class="cinematic-title">BRILLIANCE<br><em>IN EVERY DETAIL</em></h2><p class="chapter-copy">Exceptional stones. Refined craftsmanship. Unforgettable moments.</p></article>
+        <article class="chapter chapter-3" data-chapter="3"><p class="eyebrow">A celebration of you</p><h2 class="cinematic-title">MADE FOR<br><em>YOUR MOMENTS</em></h2><p class="chapter-copy">From everyday elegance to extraordinary celebrations.</p><button class="outline-button" data-scroll="collection">Discover collection <svg aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg></button></article>
+        <div class="scroll-prompt"><span>Scroll to discover</span><svg aria-hidden="true"><use href="#icon-arrow-down"></use></svg></div>
+        <div class="story-counter"><span>01</span><span class="meter-track"><span class="story-meter"></span></span><span>04</span></div>
+      </div>
+    </section>
+
+    <section id="collection" class="collection-section">
+      <div class="section-bg" aria-hidden="true">
+        <video class="showcase-video bg-video" muted loop playsinline preload="metadata"><source src="assets/aurelle-video-1.webm" type="video/webm"><source src="assets/aurelle-video-1.mp4" type="video/mp4"></video>
+        <div class="section-bg-shade"></div>
+      </div>
+      <div class="content-width">
+        <div class="section-intro reveal" data-reveal><div><p class="section-kicker">The collection</p><h2 class="section-title">Objects of<br><em>desire.</em></h2></div><p>Four expressions of modern heirloom design, united by uncommon stones and our exacting hand.</p></div>
+        <div class="collection-grid">
+          <a href="#finale" class="collection-card reveal" data-reveal><img src="assets/jewellery-collection.jpg" alt="Rings from the Aurelle collection" loading="lazy" style="object-position:8% center"><div class="collection-shade"></div><span class="number">01</span><div class="collection-name"><h3>Rings</h3><svg aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg></div></a>
+          <a href="#finale" class="collection-card reveal" data-reveal><img src="assets/jewellery-collection.jpg" alt="Necklaces from the Aurelle collection" loading="lazy" style="object-position:39% center"><div class="collection-shade"></div><span class="number">02</span><div class="collection-name"><h3>Necklaces</h3><svg aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg></div></a>
+          <a href="#finale" class="collection-card reveal" data-reveal><img src="assets/jewellery-collection.jpg" alt="Earrings from the Aurelle collection" loading="lazy" style="object-position:66% center"><div class="collection-shade"></div><span class="number">03</span><div class="collection-name"><h3>Earrings</h3><svg aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg></div></a>
+          <a href="#finale" class="collection-card reveal" data-reveal><img src="assets/jewellery-collection.jpg" alt="Bracelets from the Aurelle collection" loading="lazy" style="object-position:95% center"><div class="collection-shade"></div><span class="number">04</span><div class="collection-name"><h3>Bracelets</h3><svg aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg></div></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="story" class="image-section story-section"><img src="assets/jewellery-craft.jpg" alt="Aurelle artisan setting a diamond by hand" loading="lazy"><div class="story-shade"></div><div class="image-content reveal" data-reveal><div><p class="section-kicker">Our atelier</p><h2 class="section-title">BEYOND<br><em>JEWELLERY</em></h2><p>Created for those who believe true luxury is found in the details.</p></div></div></section>
+    <section id="finale" class="image-section finale-section"><img src="assets/jewellery-ring.jpg" alt="Brilliant-cut Aurelle diamond ring" loading="lazy"><video class="showcase-video bg-video" muted loop playsinline preload="metadata" aria-hidden="true"><source src="assets/aurelle-video-2.webm" type="video/webm"><source src="assets/aurelle-video-2.mp4" type="video/mp4"></video><div class="final-shade"></div><div class="final-content reveal" data-reveal><p class="section-kicker">The beginning of a legacy</p><h2 class="section-title">WORN TODAY.<br><em>TREASURED FOREVER.</em></h2><button class="jewel-button" data-scroll="collection">Explore the collection <svg aria-hidden="true"><use href="#icon-arrow-up-right"></use></svg></button></div></section>
+
+    <footer><div class="footer-inner"><div><p class="footer-brand">AURELLE</p><p>Fine jewellery, made to endure.</p></div><p class="copyright">© 2026 Aurelle · London</p></div></footer>
+  </main>
+
+  <div class="overlay" id="search-overlay" role="dialog" aria-modal="true" aria-label="Search Aurelle" hidden><div class="drawer"><div class="drawer-head"><h2>Search Aurelle</h2><button class="icon-button close-overlay" aria-label="Close Search Aurelle"><svg aria-hidden="true"><use href="#icon-close"></use></svg></button></div><form class="search-form"><label class="sr-only" for="site-search">Search jewellery</label><input id="site-search" placeholder="What are you looking for?"><button class="icon-button" aria-label="Submit search"><svg aria-hidden="true"><use href="#icon-search"></use></svg></button></form></div></div>
+  <div class="overlay" id="cart-overlay" role="dialog" aria-modal="true" aria-label="Your bag" hidden><div class="drawer"><div class="drawer-head"><h2>Your bag</h2><button class="icon-button close-overlay" aria-label="Close Your bag"><svg aria-hidden="true"><use href="#icon-close"></use></svg></button></div><div class="empty-bag"><svg aria-hidden="true"><use href="#icon-bag"></use></svg><h3>Your bag is empty</h3><p>A future heirloom is waiting.</p><button class="jewel-button close-and-collection">Discover the collection</button></div></div></div>
+  <div class="overlay" id="menu-overlay" role="dialog" aria-modal="true" aria-label="Menu" hidden><div class="drawer"><div class="drawer-head"><h2>Menu</h2><button class="icon-button close-overlay" aria-label="Close Menu"><svg aria-hidden="true"><use href="#icon-close"></use></svg></button></div><div class="mobile-menu"><button data-scroll="home">Home</button><button data-scroll="collection">Collection</button><button data-scroll="collection">New arrivals</button><button data-scroll="story">Our story</button></div></div></div>
+
+  <svg class="svg-defs" aria-hidden="true"><defs>
+    <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></symbol>
+    <symbol id="icon-bag" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path><path d="M3 6h18M16 10a4 4 0 0 1-8 0"></path></symbol>
+    <symbol id="icon-menu" viewBox="0 0 24 24"><path d="M4 12h16M4 6h16M4 18h16"></path></symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"></path></symbol>
+    <symbol id="icon-arrow-down" viewBox="0 0 24 24"><path d="M12 5v14M19 12l-7 7-7-7"></path></symbol>
+    <symbol id="icon-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10"></path></symbol>
+  </defs></svg>
+  <script src="script.js"></script>
+</body>
+</html>
